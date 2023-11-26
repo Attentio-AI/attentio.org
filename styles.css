@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 900px;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+/* Gradient Background */
+body {
+  background: linear-gradient(to bottom, #3b0273 0%, #8f02a1 100%);
+  color: #fff;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+nav div {
+  width: 100px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+/* Main Heading Area */
+.main-heading {
+  margin: 50px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  height: 100px; /* Placeholder height */
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  font-size: 32px;
+}
+/* Subheading Area */
+.subheading {
+  margin-bottom: 30px;
+  height: 50px; /* Placeholder height */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 30px;
+  background: #ff00ff;
+  color: #fff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #e600e6;
+}
+
+/* Placeholder for where the main feature would be */
+.main-feature {
+  height: 300px; /* Placeholder height */
+  background: rgba(255, 255, 255, 0.1);
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.2);
+}
